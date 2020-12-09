@@ -14,7 +14,8 @@ img {
 /************* End CSS RESET **************/
 
 body {
-	background:url(images/paper.png);
+	
+	background:url("images/HD-purple-wallpaper-image-to-use-as-background-119 copy.jpg");
 	color:#424242;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding:30px 0;
@@ -26,21 +27,29 @@ body {
 }
 
 header {
-	border-bottom: 3px solid #424242;
+	border-bottom: 3px solid hsla(350,60%,98%,1.00);
 	padding-bottom:20px;
+	width:100%
 }
 
 header, footer {
 	margin: 0 10px;
 	overflow:hidden;
+	
+	
+
+	
+		
 }
 section {
-	padding:20px 0;
+	padding:20px ;
 	overflow:hidden;
+	background-color:hsla(254,62%,52%,0.70);
+	
 }
 
 footer {
-	border-top: 3px solid #424242;
+	border-top: 3px solid hsla(350,60%,98%,1.00);
 	padding-top:20px;
 }
 
@@ -66,11 +75,13 @@ footer {
 h1, h2, h3 {
 	font-family: 'Bitter', serif;
 	margin-bottom:.5em;
+	color:hsla(0,17%,98%,1.00)
 }
 
 h1 {
 	font-size:150%;
 	text-transform:uppercase;
+	color:hsla(0,7%,97%,1.00)
 }
 
 header h1 {
@@ -81,12 +92,14 @@ header h1 {
 p {
 	line-height:1.4em;
 	margin-bottom:1em;
+	color:hsla(0,100%,99%,1.00)
 }
 
 ul, ol {
 	margin-bottom:1em;
 	list-style-type:disc;
 	padding-left:1.2em;
+	color:hsla(0,24%,96%,1.00);
 }
 
 ol {
